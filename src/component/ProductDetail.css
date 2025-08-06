@@ -1,0 +1,142 @@
+/* src/ProductDetail.css */
+
+.product-detail-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-detail-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-detail-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.product-detail-container p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.product-detail-container .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 1rem;
+}
+
+.product-detail-container .stock {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: green;
+}
+
+/* Button Container Styling */
+.product-detail-container .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Common Button Style */
+.product-detail-container .buttons button,
+.product-detail-container .buttons a {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 140px;
+  text-align: center;
+}
+
+/* Add to Cart Button */
+.product-detail-container .buttons .add-to-cart {
+  background: #ff9800;
+  color: white;
+}
+
+.product-detail-container .buttons .add-to-cart:hover {
+  background: #fb8c00;
+}
+
+/* Buy Now Button */
+.product-detail-container .buttons .buy-now {
+  background: #4caf50;
+  color: white;
+}
+
+.product-detail-container .buttons .buy-now:hover {
+  background: #43a047;
+}
+
+/* Back to Home Button */
+.product-detail-container .buttons .back-home {
+  background: #607d8b;
+  color: white;
+}
+
+.product-detail-container .buttons .back-home:hover {
+  background: #546e7a;
+}
+/* src/styles/ProductDetail.css */
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+button.add {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+}
+
+button.add:hover {
+  background-color: #1d4ed8; /* blue-700 */
+}
+
+button.buy {
+  background-color: #16a34a; /* green-600 */
+  color: white;
+}
+
+button.buy:hover {
+  background-color: #15803d; /* green-700 */
+}
+
+button.home {
+  background-color: #f59e0b; /* yellow-500 */
+  color: white;
+}
+
+button.home:hover {
+  background-color: #d97706; /* yellow-600 */
+}

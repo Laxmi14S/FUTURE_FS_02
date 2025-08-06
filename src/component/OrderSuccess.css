@@ -1,0 +1,33 @@
+/* src/component/OrderSuccess.css */
+.order-success {
+  padding: 50px;
+  text-align: center;
+  background-color: #f0fff4;
+  height: 100vh;
+}
+
+.order-success h1 {
+  font-size: 2.5rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.order-details {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  background: #e6ffed;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.order-success button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
